@@ -1,0 +1,31 @@
+{
+  "name": "dao-governance",
+  "version": "1.0.0",
+  "description": "A robust DAO governance smart contract system with proposal, voting, and execution mechanisms",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": [
+    "dao",
+    "governance",
+    "smart-contracts",
+    "solidity",
+    "blockchain"
+  ],
+  "author": "KvPradeepthi",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.0.0",
+    "hardhat": "^2.19.0",
+    "ethers": "^6.9.0"
+  },
+  "dependencies": {}
+}
